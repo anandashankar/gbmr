@@ -1,10 +1,15 @@
-# Graph-based Model Reduction
-*Graph-based model reduction is a model fusion and reduction method for DAGs. This is python based implementation
+Graph-based Model Reduction
+Graph-based model reduction is a model fusion and reduction method for DAGs. This is python based implementation
 of model reduction with following dependencies:
 
-##Dependencies
+Dependencies
 
-*Networkx: 
+sklearn:
+```
+pip install -U scikit-learn
+```
+
+Networkx: 
 https://networkx.org/documentation/stable/install.html
 
 
@@ -14,26 +19,26 @@ $ pip install networkx[default]
 ```
 
 
-*Node ranks:
+Node ranks:
 scikit-network
 https://scikit-network.readthedocs.io/en/latest/
 ```
 $pip install scikit-network
 ```
 
-*PageRank for DAG:
+PageRank for DAG:
 https://scikit-network.readthedocs.io/en/latest/tutorials/ranking/pagerank.html#Directed-graphs
 
-*Katz for DAG:
+Katz for DAG:
 https://scikit-network.readthedocs.io/en/latest/tutorials/ranking/katz.html#Directed-graphs
 
-*Spectral Method
+Spectral Method
 scikit-learn.cluster.SpectralClustering
 https://scikit-learn.org/stable/modules/generated/sklearn.cluster.SpectralClustering.html 
 
-*Causal discovery:
+Causal discovery:
 https://github.com/juangamella/sempler
 
-*GES:
+GES:
 https://github.com/juangamella/ges
  
