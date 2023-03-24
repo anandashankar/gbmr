@@ -1,8 +1,5 @@
-Graph-based Model Reduction
 Graph-based model reduction is a model fusion and reduction method for DAGs. This is python based implementation
 of model reduction with following dependencies:
-
-Dependencies
 
 sklearn:
 ```
